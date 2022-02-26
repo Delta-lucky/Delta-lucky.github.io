@@ -1,27 +1,42 @@
 <!DOCTYPE html>
-
-<!--你好吖-->
-
 <head>
     <meta charset="UTF-8">
     <title>Delta的个人主页</title>
     <style>
         h1{
-            font-size: 60px;
-            color: rgb(125,125,125);
-        }
-        p{
             font-size: 40px;
-
+            color: rgb(27, 27, 27);
+        }
+        a{
+            text-decoration: none;
+        }
+        div{
+            border-style: solid;
+            border-radius: 10px;
+            border-color: rgba(255,255,255,0.9);
+            background: rgba(255,255,255,0.7);
+            position: absolute;
+            left: 50px;
+            top: 25px;
         }
         body{
-            background: url("background.jpg");
+            background: url(background.jpg);
+            background-position-y: -100px;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             background-size: 100%;
+        }
+        #bililink{
+            font-size: 15px;
+            color: rgb(1,1,128);
         }
     </style>
 </head>
 
 <body>
-    <h1>欢迎来到Delta的个人主页！</h1>
-    <p>（只是尝试而已啦）</p>
+    <div>
+        <h1>欢迎来到<ins>Delta</ins>的个人主页！</h1>
+        <a id="bililink" href="https://space.bilibili.com/448806181?spm_id_from=333.1007.0.0">这里是我的bilibili主页哦</a>
+        <button type="button">邮箱：2403336254@qq.com</button>
+    </div>
 </body>
