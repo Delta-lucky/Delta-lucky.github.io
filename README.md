@@ -1,2 +1,2 @@
-# Delta-lucky.github.io
-Just my blog
+It just my blog…
+and nothing there.
