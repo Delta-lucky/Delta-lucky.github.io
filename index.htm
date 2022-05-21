@@ -3,11 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Delta的个人主页</title>
-        <style>
-            h1{
-                font-size: 30px;
-                color: rgb(27, 27, 27);
-            }
+        <style type="text/css">
             ins{
                 color: rgb(15,32,64)
             }
@@ -27,61 +23,19 @@
                 background-attachment: fixed;
                 background-size: 100%;
             }
-            #bililink{
-                font-size: 15px;
-                text-decoration: overline;
-                color: rgb(1,1,128);
-            }
-            #head{
-                left: 50px;
-                position: fixed;
-            }
-        </style>
-    </head>
-    <body>
-        <div id="head">
-            <h1>欢迎来到<ins>Delta</ins>的个人主页！</h1>
-            <a id="bililink" href="https://space.bilibili.com/448806181?spm_id_from=333.1007.0.0">这里是我的bilibili主页哦</a>
-            <button type="button">邮箱：2403336254@qq.com</button>
-        </div>
-        <div>
-            <p>hi</p>
-            <a href="page1.html">Click here?</a>
-        </div>
-    </body>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Delta的个人主页</title>
-        <style>
-            h1{
+            #title{
                 font-size: 30px;
                 color: rgb(27, 27, 27);
             }
-            ins{
-                color: rgb(15,32,64)
-            }
-            div{
-                border-style: solid;
-                border-radius: 10px;
-                border-color: rgba(255,255,255,0.9);
-                background: rgba(255,255,255,0.7);
-                position: absolute;
-                top: 25px;
-                left: 450px;
-            }
-            body{
-                background: url(background.jpg);
-                background-position-y: -100px;
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-                background-size: 100%;
-            }
             #bililink{
                 font-size: 15px;
                 text-decoration: overline;
                 color: rgb(1,1,128);
+            }
+            #music{
+                position: absolute;
+                right: 0;
+                bottom: 0;
             }
             #head{
                 left: 50px;
@@ -91,12 +45,12 @@
     </head>
     <body>
         <div id="head">
-            <h1>欢迎来到<ins>Delta</ins>的个人主页！</h1>
-            <a id="bililink" href="https://space.bilibili.com/448806181?spm_id_from=333.1007.0.0">这里是我的bilibili主页哦</a>
-            <button type="submit">邮箱：2403336254@qq.com</button>
+            <h1 id="title">欢迎来到<ins>Delta</ins>的个人主页！</h1>
+            <p>（只是一个无聊的人建起的无聊的网站啦）</p>
+            <p>不过还是很欢迎你来到这里哦~</p>
+            <a id="bililink" href="https://space.bilibili.com/448806181?spm_id_from=333.1007.0.0"><u>这里是我的bilibili主页哦</u></a>
+            <button type="button">邮箱：haveydelta@foxmail.com</button>
         </div>
-        <div>
-            <p>hi</p>
-        </div>
+        <iframe id="music" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=479483121&auto=1&height=66"></iframe>
     </body>
 </html>
